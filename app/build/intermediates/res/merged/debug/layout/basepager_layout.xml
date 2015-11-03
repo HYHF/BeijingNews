@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/rl_basepager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_red_bg">
+
+
+    <TextView
+        android:id="@+id/tv_basepager_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:text="hhhhhhh"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib_basepager_menu"
+        android:src="@drawable/img_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ib_basepager_switch"
+        android:src="@drawable/icon_pic_list_type"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        />
+</RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_basepager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+</LinearLayout>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/layout/basepager_layout.xml -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android\workspace\base_ws\Beijing_news\app\build\intermediates\exploded-aar\jp.wasabeef\recyclerview-animators\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d2772338dc47df77740263fe45995baa29d75faf">
+        <dex dex="E:\android\workspace\base_ws\Beijing_news\app\build\intermediates\pre-dexed\debug\classes-bec16cd17c58798950ca79fc3afab998e2d1127b.jar" />
+    </item>
+
+</items>

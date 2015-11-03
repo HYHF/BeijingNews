@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <com.example.hyh_1.beijing_news.view.NoScrollViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#666666"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_main_home"
+            style="@style/radiobtStyle"
+            android:drawableTop="@drawable/home_selector"
+            android:text="首页"
+            />
+        <RadioButton
+            android:id="@+id/rb_main_news"
+            style="@style/radiobtStyle"
+            android:drawableTop="@drawable/news_selector"
+            android:text="新闻中心"
+            />
+        <RadioButton
+            android:id="@+id/rb_main_smalt"
+            style="@style/radiobtStyle"
+            android:drawableTop="@drawable/smalt_selector"
+            android:text="智慧服务"
+            />
+        <RadioButton
+            android:id="@+id/rb_main_gover"
+            style="@style/radiobtStyle"
+            android:drawableTop="@drawable/govffairs_selector"
+            android:text="政务指南"
+            />
+        <RadioButton
+            android:id="@+id/rb_main_setting"
+            style="@style/radiobtStyle"
+            android:drawableTop="@drawable/setting_selector"
+            android:text="设置"
+            />
+
+
+    </RadioGroup>
+
+</LinearLayout>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/layout/content_main.xml -->

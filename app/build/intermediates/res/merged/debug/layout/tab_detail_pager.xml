@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+   <com.example.hyh_1.beijing_news.view.PullToRefreshListView
+       android:fadingEdge="none"
+       android:cacheColorHint="@android:color/transparent"
+       android:id="@+id/lv_tab_pager"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </com.example.hyh_1.beijing_news.view.PullToRefreshListView>
+</LinearLayout><!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/layout/tab_detail_pager.xml -->

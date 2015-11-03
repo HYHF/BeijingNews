@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/dot_focus" android:state_enabled="true"/>
+    <item android:drawable="@drawable/dot_normal" android:state_enabled="false"/>
+</selector>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/drawable/tag_header_point_bg_selector.xml -->

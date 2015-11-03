@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/newscenter" android:state_checked="false"/>
+    <item android:drawable="@drawable/newscenter_press" android:state_checked="true"/>
+</selector>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/drawable/news_selector.xml -->

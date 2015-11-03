@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/menu_arr_normal" android:state_selected="false"/>
+    <item android:drawable="@drawable/menu_arr_selected" android:state_selected="true"/>
+</selector>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/drawable/menu_arr.xml -->

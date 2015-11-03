@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/rv_photoes"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+</LinearLayout>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/layout/photos_menu_detail_pager.xml -->

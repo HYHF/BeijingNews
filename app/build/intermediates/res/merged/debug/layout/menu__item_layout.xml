@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/tv_menu_tab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="fdsaf"
+        android:drawableLeft="@drawable/menu_arr"
+        android:drawablePadding="13dp"
+        android:textColor="@drawable/menu_tab_selector"
+       />
+</LinearLayout>
+<!-- From: file:/E:/android/workspace/base_ws/Beijing_news/app/src/main/res/layout/menu__item_layout.xml -->
